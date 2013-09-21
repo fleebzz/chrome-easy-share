@@ -1,7 +1,7 @@
 $(function(){
-  chrome.tabs.query({'active': true}, function(tabs) {
-    var tabUrl = encodeURIComponent(tabs[0].url);
-    var tabTitle = encodeURIComponent(tabs[0].title);
+  chrome.tabs.getSelected(null, function(tab){
+    var tabUrl = encodeURIComponent(tab.url);
+    var tabTitle = encodeURIComponent(tab.title);
 
     var _html = '';
     $.get('service-template.html', function(template){
