@@ -1,0 +1,23 @@
+{
+  "Google+" : {
+    "url"       : "https://plus.google.com/share?url=%URL%",
+    "shortName" : "googleplus"
+  },
+  "Twitter" : {
+    "url"       : "https://twitter.com/intent/tweet?original_referer=%URL%&text=%TITLE%&url=%URL%",
+    "shortName" : "twitter"
+  },
+  "Facebook" : {
+    "url"       : "https://www.facebook.com/sharer.php?src=bm&v=4&i=1379681717&u=%URL%&t=%TITLE%",
+    "shortName" : "facebook"
+  },
+  "Tumblr" : {
+    "url"       : "http://www.tumblr.com/share?v=3&u=%URL%&t=%TITLE%&s=",
+    "shortName" : "tumblr"
+  },
+  "LinkedIn" : {
+    "url"       : "http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title=%TITLE%&url=%URL%",
+    "shortName" : "linkedin"
+  }
+}
+
