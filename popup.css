@@ -1,8 +1,13 @@
 
-.service-link {
+body {
+  font-family: Arial,Helvetica,"Helvetica Neue",sans-serif;
+  font-size: 15px;
+}
+
+a.service-link {
   text-decoration: none;
   height: 29px;
-  padding-top: 11px;
+  padding-top: 12px;
   padding-left: 44px;
   display: block;
   margin-top: 0;
@@ -12,12 +17,12 @@
   border-bottom: 1px solid #FFF;
 }
 
-.service-link:hover {
+a.service-link:hover {
   background-color: #5585EF;
   color: #FFF;
 }
 
-.service-logo {
+img.service-logo {
   position: absolute;
   top: 8px;
   left: 9px;
