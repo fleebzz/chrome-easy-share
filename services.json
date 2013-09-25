@@ -18,6 +18,10 @@
   "LinkedIn" : {
     "url"       : "http://www.linkedin.com/shareArticle?mini=true&ro=false&trk=bookmarklet&title=%TITLE%&url=%URL%",
     "shortName" : "linkedin"
+  },
+  "GMail"     : {
+    "url"       : "http://mail.google.com/mail/?view=cm&fs=1&tf=1&to=&su=%TITLE%&body=%URL%",
+    "shortName" : "gmail"
   }
 }
 
